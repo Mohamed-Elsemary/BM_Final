@@ -7,10 +7,10 @@
 
 import Foundation
 struct URLs {
-    static let convert = "https://currencyconversionproject-production.up.railway.app/pair-conversion"
-    static let favouritelist = "https://currencyconversionproject-production.up.railway.app/currencies"
-    static let compare = "https://currencyconversionproject-production.up.railway.app/comparison"
-    static let favourite = "https://currencyconversionproject-production.up.railway.app/favorite-currencies"
+    static let convert = "http://tiresome-part-production.up.railway.app/pair-conversion"
+    static let favouritelist = "http://tiresome-part-production.up.railway.app/currencies"
+    static let compare = "http://tiresome-part-production.up.railway.app/comparison"
+    static let favourite = "http://tiresome-part-production.up.railway.app/favorite-currencies"
 }
 struct NetworkingError {
     static let errorMessage = "Couln't get data from this API"
