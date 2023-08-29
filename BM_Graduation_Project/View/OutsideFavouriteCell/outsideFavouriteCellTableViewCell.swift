@@ -11,15 +11,18 @@ class outsideFavouriteCellTableViewCell: UITableViewCell {
 
     @IBOutlet weak var imageCurrency: UIImageView!
     @IBOutlet weak var currencyName: UILabel!
-    @IBOutlet weak var checkBtn: UIButton!
-    
+    @IBOutlet weak var checkBtn: RadioButton!
     @IBOutlet weak var currN: UILabel!
+    var checkbuttonPressed: (() -> Void)?
     override func awakeFromNib() {
         super.awakeFromNib()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+    }
+    @IBAction func checkBtnTapped(_ sender: RadioButton) {
+        checkbuttonPressed?()
     }
     
 }

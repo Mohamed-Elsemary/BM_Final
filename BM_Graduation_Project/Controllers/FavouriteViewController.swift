@@ -9,12 +9,10 @@ import UIKit
 import SDWebImage
 
 protocol CurrencyFavoriting: AnyObject {
-   func favorite (currency: [Favourite])
-   }
+    func favorite (currency: [Favourite])
+}
 class FavouriteViewController: UIViewController {
-    
     @IBOutlet weak var newFavouriteTableView: UITableView!
-
     weak var delegate: CurrencyFavoriting?
     var IndexPath: IndexPath!
     var favArr: [Favourite] = []
@@ -23,7 +21,7 @@ class FavouriteViewController: UIViewController {
         super.viewDidLoad()
         newFavouriteTableView.delegate = self
         newFavouriteTableView.dataSource = self
-        newFavouriteTableView.register(UINib(nibName: "outsideFavouriteCellTableViewCell", bundle: nil), forCellReuseIdentifier: "outsideFavouriteCellTableViewCell")
+        newFavouriteTableView.register(UINib(nibName: cells.outsideFavouriteCell, bundle: nil), forCellReuseIdentifier: cells.outsideFavouriteCell)
         
         getData()
     }
@@ -38,6 +36,14 @@ class FavouriteViewController: UIViewController {
 extension FavouriteViewController :settingTableView {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cells.outsideFavouriteCell, for: indexPath) as! outsideFavouriteCellTableViewCell
+         cell.checkBtn.isChecked = //is item
+            cell.checkbuttonPressed = {
+            if cell.checkBtn.isChecked {
+                // add
+            } else {
+                // remove
+            }
+        }
         cell.currN.text = favArr[indexPath.row].name
         cell.currencyName.text = favArr[indexPath.row].code
         let image = favArr[indexPath.row].flagURL
@@ -45,7 +51,6 @@ extension FavouriteViewController :settingTableView {
             cell.imageCurrency.sd_setImage(with: flag )
         }
         print(cell.checkBtn ,"btn")
-        //button ?
         return cell
     }
     
@@ -61,13 +66,13 @@ extension FavouriteViewController :settingTableView {
             }
             if let data = data {
                 DispatchQueue.main.async {
-                self.favArr = data
-                self.newFavouriteTableView.reloadData()
+                    self.favArr = data
+                    self.newFavouriteTableView.reloadData()
                     
                 }
                 
             }
-                        
+            
         }
     }
 }

@@ -16,6 +16,7 @@
 		42ACF4432A9A419200AEB680 /* Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF4422A9A419200AEB680 /* Favourite.swift */; };
 		42C1413B2A9C9458001F15FB /* MyFavouriteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1413A2A9C9458001F15FB /* MyFavouriteResponse.swift */; };
 		42C1413D2A9C9AFD001F15FB /* MyFavourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1413C2A9C9AFD001F15FB /* MyFavourite.swift */; };
+		D96507702A9E552E00266891 /* UserDefaults .swift in Sources */ = {isa = PBXBuildFile; fileRef = D965076F2A9E552E00266891 /* UserDefaults .swift */; };
 		D9761A052A9E34F700F8DCA8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D9761A042A9E34F700F8DCA8 /* Alamofire */; };
 		D9761A082A9E350E00F8DCA8 /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = D9761A072A9E350E00F8DCA8 /* iOSDropDown */; };
 		D9761A0B2A9E367F00F8DCA8 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D9761A0A2A9E367F00F8DCA8 /* SDWebImage */; };
@@ -68,6 +69,7 @@
 		42ACF4422A9A419200AEB680 /* Favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite.swift; sourceTree = "<group>"; };
 		42C1413A2A9C9458001F15FB /* MyFavouriteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavouriteResponse.swift; sourceTree = "<group>"; };
 		42C1413C2A9C9AFD001F15FB /* MyFavourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavourite.swift; sourceTree = "<group>"; };
+		D965076F2A9E552E00266891 /* UserDefaults .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults .swift"; sourceTree = "<group>"; };
 		D976D4D92A9652260046DB53 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
 		D976D4DE2A9674230046DB53 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		D976D4DF2A968E260046DB53 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-VariableFont_wght.ttf"; path = "../../../../Downloads/Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				42ACF4362A9A021C00AEB680 /* Constants.swift */,
 				D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */,
 				D976D4E72A96A9010046DB53 /* Customing.swift */,
+				D965076F2A9E552E00266891 /* UserDefaults .swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				42ACF4392A9A072D00AEB680 /* ConvertResponse.swift in Sources */,
 				42C1413B2A9C9458001F15FB /* MyFavouriteResponse.swift in Sources */,
 				D97794F12A97E25E00F098DC /* favouriteCellTableViewCell.swift in Sources */,
+				D96507702A9E552E00266891 /* UserDefaults .swift in Sources */,
 				D97794FB2A9800D800F098DC /* FavouriteViewController.swift in Sources */,
 				D976D4DA2A9652260046DB53 /* HomeScreenVC.swift in Sources */,
 				42ACF4372A9A021C00AEB680 /* Constants.swift in Sources */,
