@@ -26,14 +26,14 @@ class ConvertVC: UIViewController {
         sourceCurrency.text = " " + getFlagEmoji(flag: "EGP") + "  EGP"
         toCurrency.text = " " + getFlagEmoji(flag: "USD") + "  USD"
         settingupUI()
-        FavouriteTableview.register(UINib(nibName: "favouriteCellTableViewCell", bundle: nil), forCellReuseIdentifier: "favouriteCellTableViewCell")
+        FavouriteTableview.register(UINib(nibName: cells.insideFavouriteCell, bundle: nil), forCellReuseIdentifier: cells.insideFavouriteCell)
         gettData()
 //        getRates()
     }
     func gotoFavourite(){
         
-        let sb = UIStoryboard(name:"Main", bundle:nil) // create instance
-        let favouriteVC = sb.instantiateViewController(withIdentifier: "FavouriteViewController") as! FavouriteViewController
+        let sb = UIStoryboard(name:StoryBoards.main, bundle:nil) // create instance
+        let favouriteVC = sb.instantiateViewController(withIdentifier: ViewControllerIds.favourite) as! FavouriteViewController
         favouriteVC.delegate = self
         self.present(favouriteVC, animated: true)
         

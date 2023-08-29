@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42ACF4372A9A021C00AEB680 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF4362A9A021C00AEB680 /* constants.swift */; };
+		42ACF4372A9A021C00AEB680 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF4362A9A021C00AEB680 /* Constants.swift */; };
 		42ACF4392A9A072D00AEB680 /* ConvertResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF4382A9A072D00AEB680 /* ConvertResponse.swift */; };
 		42ACF43B2A9A077300AEB680 /* Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF43A2A9A077300AEB680 /* Convert.swift */; };
 		42ACF43D2A9A138700AEB680 /* CompareResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF43C2A9A138700AEB680 /* CompareResponse.swift */; };
@@ -59,7 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		42ACF4362A9A021C00AEB680 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		42ACF4362A9A021C00AEB680 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		42ACF4382A9A072D00AEB680 /* ConvertResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertResponse.swift; sourceTree = "<group>"; };
 		42ACF43A2A9A077300AEB680 /* Convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convert.swift; sourceTree = "<group>"; };
 		42ACF43C2A9A138700AEB680 /* CompareResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareResponse.swift; sourceTree = "<group>"; };
@@ -148,6 +148,7 @@
 		D976D4E92A96A9100046DB53 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				42ACF4362A9A021C00AEB680 /* Constants.swift */,
 				D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */,
 				D976D4E72A96A9010046DB53 /* Customing.swift */,
 			);
@@ -238,7 +239,6 @@
 				D9FD2EB72A93666900061CDD /* Assets.xcassets */,
 				D9FD2EB92A93666900061CDD /* LaunchScreen.storyboard */,
 				D9FD2EBC2A93666900061CDD /* Info.plist */,
-				42ACF4362A9A021C00AEB680 /* constants.swift */,
 			);
 			path = BM_Graduation_Project;
 			sourceTree = "<group>";
@@ -423,7 +423,7 @@
 				D97794F12A97E25E00F098DC /* favouriteCellTableViewCell.swift in Sources */,
 				D97794FB2A9800D800F098DC /* FavouriteViewController.swift in Sources */,
 				D976D4DA2A9652260046DB53 /* HomeScreenVC.swift in Sources */,
-				42ACF4372A9A021C00AEB680 /* constants.swift in Sources */,
+				42ACF4372A9A021C00AEB680 /* Constants.swift in Sources */,
 				42ACF43F2A9A139C00AEB680 /* Compare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

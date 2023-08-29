@@ -13,5 +13,16 @@ struct URLs {
     static let favourite = "https://currencyconversionproject-production.up.railway.app/favorite-currencies"
 }
 struct NetworkingError {
-static let errorMessage = "Couln't get data from this API"
- }
+    static let errorMessage = "Couln't get data from this API"
+}
+struct StoryBoards {
+    static let main = "Main"
+}
+struct ViewControllerIds {
+    static let favourite = "FavouriteViewController"
+    
+}
+struct cells {
+    static let insideFavouriteCell = "favouriteCellTableViewCell"
+    static let outsideFavouriteCell = "outsideFavouriteCellTableViewCell"
+}
