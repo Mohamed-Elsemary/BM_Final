@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "bc268c28fb170f494de9e9927c371b8342979ece",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "iosdropdown",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jriosdev/iOSDropDown",
+      "state" : {
+        "branch" : "master",
+        "revision" : "01b96f2bc70c1243f69d9466538c291b6134db3a"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "507225ea04876894856186af6d3c30a9e8c1200a"
+      }
+    }
+  ],
+  "version" : 2
+}
